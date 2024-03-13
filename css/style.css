@@ -6,10 +6,11 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 50px;
+    width: 100vw;
     font-family: 'Ubuntu', sans-serif;
     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
